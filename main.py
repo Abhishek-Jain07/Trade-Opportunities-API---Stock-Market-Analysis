@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Trade Opportunities API",
-    description="Real-time NSE/BSE sector-wise stock analysis with sentiment and price ranges"
+    description="A FastAPI service that analyzes NSE/BSE sector performance and generates readable market insights."
 )
 
 limiter = Limiter(key_func=get_remote_address)
@@ -122,5 +122,6 @@ async def get_sector_suggestions():
         "exchange": "NSE/BSE",
         "region": "India"
     }
+
 
 
