@@ -31,6 +31,7 @@ python main.py
 ```
 
 ## Endpoints
+- `/docs` — Demo URL
 - `GET /` — service status
 - `GET /health` — health check
 - `GET /sectors/suggestions` — common sector names (India NSE/BSE)
