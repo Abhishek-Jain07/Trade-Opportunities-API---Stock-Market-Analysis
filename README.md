@@ -1,4 +1,4 @@
-# Sector Analysis API (India)
+# Trade Opportunities - Stock Market Analysis API (India)
 
 A FastAPI service that returns markdown sector analysis reports using Indian stock data (NSE/BSE) from `stock.indianapi.in`.
 
