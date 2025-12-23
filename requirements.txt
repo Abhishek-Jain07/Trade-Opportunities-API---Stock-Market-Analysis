@@ -5,4 +5,7 @@ slowapi==0.1.9
 aiohttp==3.9.1
 python-multipart==0.0.6
 pytz==2023.3
+python-dotenv==1.0.1
+pytz==2023.3
+pydantic-core==2.16.3
 
