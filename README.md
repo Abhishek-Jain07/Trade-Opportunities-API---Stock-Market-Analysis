@@ -28,7 +28,6 @@ The code currently uses the provided key in `market_service.py`.
 ## Run the server
 ```bash
 python main.py
-# server runs at http://localhost:8000
 ```
 
 ## Endpoints
